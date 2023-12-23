@@ -1,3 +1,5 @@
+`This fork removes the internal dependency of react-icons,  decreasing the bundled file by a few MB in case you are not using all the react-icons libraries`
+
 # sanity-plugin-icon-picker
 
 > This is a **Sanity Studio v3** plugin.

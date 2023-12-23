@@ -1,6 +1,6 @@
 {
-  "name": "sanity-plugin-icon-picker",
-  "version": "3.2.2",
+  "name": "sanity-plugin-icon-picker-fix",
+  "version": "0.0.1",
   "description": "An Icon Picker plugin for Sanity",
   "keywords": [
     "sanity",
@@ -10,13 +10,13 @@
     "custom input",
     "sanity field"
   ],
-  "homepage": "https://github.com/christopherafbjur/sanity-plugin-icon-picker#readme",
+  "homepage": "https://github.com/gustavorino/sanity-plugin-icon-picker#readme",
   "bugs": {
-    "url": "https://github.com/christopherafbjur/sanity-plugin-icon-picker/issues"
+    "url": "https://github.com/gustavorino/sanity-plugin-icon-picker/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christopherafbjur/sanity-plugin-icon-picker.git"
+    "url": "git+https://github.com/gustavorino/sanity-plugin-icon-picker.git"
   },
   "license": "MIT",
   "author": "Christopher Af Bjur",
@@ -59,7 +59,6 @@
     "@sanity/incompatible-plugin": "^1.0.4",
     "decamelize": "3.2.0",
     "framework7-icons": "^5.0.5",
-    "react-icons": "^4.8.0",
     "react-virtualized-auto-sizer": "^1.0.5",
     "react-window": "^1.8.6",
     "sanity": "^3"
@@ -102,10 +101,10 @@
   },
   "peerDependencies": {
     "react": "^18",
+    "react-icons": "^4.0.0",
     "sanity": "^3"
   },
   "engines": {
     "node": ">=14"
-  },
-  "sanityExchangeUrl": "https://www.sanity.io/plugins/icon-picker"
+  }
 }
