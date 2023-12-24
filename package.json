@@ -52,7 +52,7 @@
     "prepublishOnly": "run-s build",
     "prepare": "husky install",
     "watch": "pkg-utils watch --strict",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:watch": "jest --watch"
   },
   "dependencies": {
